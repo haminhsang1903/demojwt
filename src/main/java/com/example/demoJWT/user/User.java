@@ -24,7 +24,7 @@ import javax.persistence.Table;
  * Github: https://github.com/loda-kun
  */
 @Entity
-@Table(name = "user")
+@Table(name = "users")
 public class User {
     @Id
     @GeneratedValue
